@@ -1,0 +1,7 @@
+flask
+Flask-SQLAlchemy
+flask-login
+tensorflow 
+scikit-learn 
+opencv-python-headless 
+matplotlib

@@ -1,0 +1,37 @@
+
+
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content %}
+<h1 align="center">Outfit Recommendation</h1>
+<form method="POST">
+<!-- Dropdown menu for gender -->
+<div class="form-group">
+  <label for="gender">Gender</label>
+  <select class="form-control" id="gender" name="gender" placeholder="Select Gender">
+    <option value="gender0">--Select Gender--</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+  </select>
+</div>
+
+<!-- Dropdown menu for events -->
+<div class="form-group">
+  <label for="events">Event</label>
+  <select class="form-control" id="events" name="events" placeholder="Select Event">
+    <option value="event0">--Select Event--</option>
+    <option value="event2">Beach</option>
+    <option value="event3">Concert</option>
+    <option value="event4">Dinner Date</option>
+    <option value="event5">Fitness</option>
+    <option value="event6">Halloween</option>
+    <option value="event7">Proffessional</option>
+    <option value="event8">Sports</option>
+    <option value="event9">Wedding</option>
+    <!-- Add more events as needed -->
+  </select>
+</div>
+<div align="center">
+    <button type="submit" class="btn btn-primary">Search</button>
+</div>
+</form>
+ 
+{% endblock %}
