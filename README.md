@@ -1,4 +1,4 @@
-# Flask Web App Tutorial
+# Fashion Recommendation App
 
 ## Setup & Installation
 
