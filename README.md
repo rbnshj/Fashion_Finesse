@@ -1,4 +1,4 @@
-# Fashion Recommendation App
+# Fashion Recommendation
 
 ## Setup & Installation
 
